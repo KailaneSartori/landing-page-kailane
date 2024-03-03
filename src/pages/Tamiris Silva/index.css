@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #b494c7
+}
+
+.container {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+header {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header .logo {
+    color: #060109;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header ul {
+    display: ruby;
+}
+
+header ul li {
+    list-style: none;
+    margin:  30px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background-color: rgb(212, 176, 225);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo {
+    transform: translateX(-100px);
+    max-width: 700px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    padding-left: 110px;
+}
+
+.conteudo h2 {
+    padding-bottom: 10px;
+    font-size: 3em;
+    color: rgb(73, 17, 83);
+}
+
+.conteudo p {
+    font-size: 1.5em;
+    color: #0b010c;
+}
+
+.imgLogo img {
+    width: 750px;
+    border-radius: 20%;
+}
+
+.meio {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.imgKids img {
+    width: 700px;
+    border-radius: 20%;
+}
+
+.meio p {
+    position: relative;
+    color: rgb(73, 17, 83);
+    font-size: 4em;   
+}
+
+main div {
+    position: relative;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+main div {
+    display: flexbox;
+    list-style: none;
+    font-size: 3em;
+    margin:  20px;
+}
+
+main div:hover, main div.active {
+    background-color: rgb(212, 176, 225);
+}
+
+main div {
+    transform: translateX(-100px);
+    max-width: 700px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    padding-left: 90px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+form {
+    position: relative;
+    max-width: 1000px;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 2rem 3rem;
+    display: flow-root;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(55px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 20px;
+    outline: inverts;
+    font-size: 1em;
+}
+
+.inputbox ion-icon {
+    position: relative;
+    right: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    top: 20px;
+}
+
+.forget {
+    margin: 80px;
+    font-size: 0.90rem;
+    color: #0b0a0a;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: #0b010c;
+    text-align: center;
+}
+
+.inputbox p {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+ .inputbox {
+    position: relative;
+    margin: 50px 0;
+    max-width: 1000px;
+    border-bottom: 1px solid transparent
+ }
+
+ input:focus ~ label,
+ input:valid ~ label {
+    top: -5px;
+ }
+
+ button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(236, 187, 227);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+ }
+
+ button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+ }
+
+ footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(93, 16, 84, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+ 
+footer p {
+    position: relative;
+    color: rgb(10, 1, 12);
+    font-size: 1.3em;   
+}

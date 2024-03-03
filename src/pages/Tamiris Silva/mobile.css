@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 760px) {
+    
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        font-size: xx-small;
+        align-items: center;
+    }
+    .imgLogo img {
+       
+        width: 350px;
+        border: 10%;
+    }
+    .conteudo {
+        transform: translateX(0px);
+        padding: 30%;
+    }
+
+    .meio {
+        flex-direction: column-reverse;
+        padding: 20px;
+        font-size: x-small;
+        align-items: center;
+    }
+
+    .imgKids img {
+        width: 400px;
+        border: 10%;
+    }
+
+    form {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+   h3 {
+    font-size: 15px;
+   }
+   
+    footer {
+    flex-direction: column;
+    font-size: small;
+    
+   }
+}
+    
